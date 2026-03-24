@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://orn1135i7cve"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_qbkls"]
+
+[node name="Area2D" type="Area2D"]
+metadata/_edit_group_ = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_qbkls")
+metadata/_edit_group_ = true
