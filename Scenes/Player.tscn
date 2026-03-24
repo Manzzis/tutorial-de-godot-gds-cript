@@ -34,7 +34,7 @@ animations = [{
 [sub_resource type="CircleShape2D" id="CircleShape2D_qbkls"]
 radius = 27.0
 
-[node name="Area2D" type="Area2D"]
+[node name="Player" type="Area2D"]
 script = ExtResource("1_5ixxa")
 metadata/_edit_group_ = true
 
