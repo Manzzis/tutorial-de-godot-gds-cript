@@ -17,6 +17,8 @@ func game_over() -> void:
 	$ScoreTimer.stop()
 	$StartTimer.stop()
 	$HUD.show_game_over()
+	$music.stop()
+	$deathsound.play()
 
 
 func new_game():
@@ -25,6 +27,7 @@ func new_game():
 	$StartTimer.start()
 	$HUD.update_score(score)
 	$HUD.show_message("Get Ready")
+	$music.play()
 	
 	get_tree().call_group("mobs", "queue_free")
 
